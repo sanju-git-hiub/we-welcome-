@@ -224,10 +224,26 @@
       </div>
     </section>
   </body>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       once: true,
     });
+
+     (function () {
+    const stickyBtn = document.querySelector('.sticky-btn');
+
+    const minBottom = 60; // initial bottom offset
+    const maxBottom = 200; // maximum bottom offset
+    const maxScroll = 650; // how much scroll to reach maxBottom
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      const clampedScroll = Math.min(scrollY, maxScroll);
+      const newBottom = minBottom + ((maxBottom - minBottom) * (clampedScroll / maxScroll));
+      stickyBtn.style.bottom = `${newBottom}px`;
+    });
+  })();
   </script>
 </html>
