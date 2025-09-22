@@ -172,4 +172,4 @@ figure {
   max-width: 30px;
 }
 
-.tagline {text-transform: capitalize !important;padding: 0 10px;margin-bottom: 2rem;}
+.tagline {padding: 0 10px;margin-bottom: 2rem;font-size: 40px;text-align: center;}
