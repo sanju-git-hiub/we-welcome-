@@ -107,6 +107,7 @@ figure {
 }
 .sec-wrap {
   position: relative;
+  overflow: hidden;
 }
 .sec-wrap::after {
   position: absolute;
@@ -127,13 +128,15 @@ figure {
 .sec-bg {
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: -2px;
+  width: 100%;
   opacity: 0.4 !important;
+  max-height: 100%;
 }
 .sec-header {
   text-align: center;
   font-size: 35px;
-  padding: 70px 20px 80px;
+  padding: 35px 20px 80px;
 }
 
 .sec-header span {
@@ -172,4 +175,4 @@ figure {
   max-width: 30px;
 }
 
-.tagline {padding: 0 10px;margin-bottom: 2rem;font-size: 40px;text-align: center;}
+.tagline {padding: 0 10px;margin-bottom: 2rem;font-size: 35px;text-align: center;}
