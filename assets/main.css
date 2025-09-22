@@ -148,6 +148,7 @@ figure {
   font-size: 20px;
   position: relative;
   top: -40px;
+  padding: 0 10px;
 }
 .main-content {
   position: relative;
