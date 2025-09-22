@@ -171,3 +171,5 @@ figure {
 .sticky-btn a > img {
   max-width: 30px;
 }
+
+.tagline {text-transform: capitalize !important;padding: 0 10px;margin-bottom: 2rem;}
