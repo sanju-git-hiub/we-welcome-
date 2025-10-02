@@ -119,7 +119,7 @@ figure {
   background: linear-gradient(
     180deg,
     rgba(245, 238, 219, 1) 0%,
-    rgba(245, 238, 219, 0.8) 61%,
+    rgb(245 238 219 / 75%) 61%,
     rgba(245, 238, 219, 0.7) 100%
   );
   content: "";
@@ -176,4 +176,9 @@ figure {
   max-width: 30px;
 }
 
-.tagline {padding: 0 10px;margin-bottom: 2rem;font-size: 35px;text-align: center;}
+.tagline {
+  padding: 0 10px;
+  margin-bottom: 2rem;
+  font-size: 35px;
+  text-align: center;
+}
